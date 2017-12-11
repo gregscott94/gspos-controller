@@ -1,0 +1,52 @@
+#footer {
+  width: 100%;
+  text-align: center;
+}
+
+#subTitle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+
+#homeShortcut {
+  margin-left: 30px;
+}
+
+#toolsShortcut {
+  float: right;
+  margin-right: 30px;
+}
+
+#remoteBackBtn {
+  margin-left: 30px;
+}
+
+#remoteBtnHeader {
+  margin-top: 30px;
+}
+
+#remoteCenterDiv {
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+#remoteControlsDiv {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#remoteBtnFooter {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 30px;
+}
+
+.remoteBtnDiv {
+  float: left;
+}
+
+/* #remoteRight {
+  float: right;
+} */
