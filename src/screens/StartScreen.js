@@ -23,7 +23,7 @@ export default class StartScreen extends React.Component {
             accent={true}
             label="Get Started"
             onClick={() => {
-              console.log('click');
+              this.props.api.sendMessage('d:home');
             }}
           />
         </div>

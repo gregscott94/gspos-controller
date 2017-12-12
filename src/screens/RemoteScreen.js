@@ -18,7 +18,7 @@ export default class RemoteScreen extends React.Component {
           <Button
             id="toolsShortcut"
             onClick={() => {
-              console.log('click');
+              console.log('tools');
             }}
           >
             <ConfigureIcon size="xlarge" />
@@ -26,7 +26,7 @@ export default class RemoteScreen extends React.Component {
           <Button
             id="homeShortcut"
             onClick={() => {
-              console.log('click');
+              this.props.api.sendMessage('d:home');
             }}
           >
             <HomeIcon size="xlarge" />
@@ -41,7 +41,7 @@ export default class RemoteScreen extends React.Component {
               <Button
                 id="remoteLeft"
                 onClick={() => {
-                  console.log('click');
+                  this.props.api.sendMessage('d:left');
                 }}
               >
                 <LeftIcon size="xlarge" />
@@ -51,7 +51,7 @@ export default class RemoteScreen extends React.Component {
               <Button
                 id="remoteUp"
                 onClick={() => {
-                  console.log('click');
+                  this.props.api.sendMessage('d:up');
                 }}
               >
                 <UpIcon size="xlarge" />
@@ -60,7 +60,7 @@ export default class RemoteScreen extends React.Component {
               <Button
                 id="remoteSelect"
                 onClick={() => {
-                  console.log('click');
+                  this.props.api.sendMessage('d:select');
                 }}
               >
                 <CircleIcon size="xlarge" />
@@ -69,7 +69,7 @@ export default class RemoteScreen extends React.Component {
               <Button
                 id="remoteDown"
                 onClick={() => {
-                  console.log('click');
+                  this.props.api.sendMessage('d:down');
                 }}
               >
                 <DownIcon size="xlarge" />
@@ -82,7 +82,7 @@ export default class RemoteScreen extends React.Component {
               <Button
                 id="remoteRight"
                 onClick={() => {
-                  console.log('click');
+                  this.props.api.sendMessage('d:right');
                 }}
               >
                 <RightIcon size="xlarge" />
@@ -94,7 +94,7 @@ export default class RemoteScreen extends React.Component {
           <Button
             id="remoteBackBtn"
             onClick={() => {
-              console.log('click');
+              this.props.api.sendMessage('d:back');
             }}
           >
             <RevertIcon size="xlarge" />
